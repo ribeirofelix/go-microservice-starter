@@ -1,4 +1,4 @@
-# go-microservice-starter [![CircleCI](https://circleci.com/gh/hellomd/go-microservice-starter.svg?style=svg&circle-token=0a38c58fa645faf3adfdb9ecdb3782447333d7c6)](https://circleci.com/gh/hellomd/go-microservice-starter)
+# go-microservice-starter [![CircleCI](https://circleci.com/gh/hellomd/go-microservice-starter.svg?style=svg&circle-token=c1af14315cab468538c805d81ab8380378bb76c3)](https://circleci.com/gh/hellomd/go-microservice-starter)
 
 Go Microservice Starter is a boilerplate go microservice
 
