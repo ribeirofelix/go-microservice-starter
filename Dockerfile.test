@@ -1,0 +1,7 @@
+FROM golang:latest
+WORKDIR /go/src/github.com/hellomd/go-microservice-starter
+ADD . .
+ENTRYPOINT echo "==============   UNIT TESTS  ========================" && \ 
+           go test -v -tags unit $(go list ./... | grep -v /vendor/) && \
+           echo "============== FEATURE TESTS ========================" && \
+           go test -v -tags feature $(go list ./... | grep -v /vendor/)

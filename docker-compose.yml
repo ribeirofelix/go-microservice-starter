@@ -1,0 +1,11 @@
+test:
+    build: .
+    dockerfile: Dockerfile.test
+web:
+    build: .
+    container_name: go-microservice-starter
+    environment: 
+        PORT: 3000
+        APP_NAME: go-microservice-starter
+    ports: 
+        - "8080:3000"
